@@ -8,6 +8,8 @@ Explicación de uso e instalacion de todo lo necesario para el funcionamiento.
 
 Instalar Python https://www.python.org/downloads/releases recomiendo que todos tengamos la version 3.7.4 July 8, 2019
 
+IMPORTANTE * Crear la base de datos con dockers y revisar secret.json para obtener los datos necesarios(pueden ser cambiados si quieren).
+
 
 Luego de instalar python, crearemos una carpeta para guardar nuestro trabajo, dentro de esta crearemos 2 carpetas una llamada entorno y otra llamada LindaSonrisa
 Dentro de linda sonrisa realizaremos la clonacion desde github.
