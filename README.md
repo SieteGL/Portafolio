@@ -37,9 +37,14 @@ Tenemos 4 carpetas principales que se ven en la raíz y un archivo .py y un jsno
 
 2° manage.py-- Este archivo nos permitira hacer las interacciones requeridas por la aplicacion desde la conexion a DB hasta el levantamiento.
 
-3°LindaSonrisa-- Este archivo es el base del proyecto donde se encuentran los settings.py  pero por buena practica el archivo settings.py puede ser sub-dividido en 3 por esto creando la carpeta settings que en su interior cuenta con __init__.py  base.py local.py prod.py... Siendo en base.py donde se encuentran los django apps, local apps, thid party apps. siendo aqui donde informaremos de cambios en nuestros modulos.
+3°LindaSonrisa-- Este archivo es el base del proyecto donde se encuentran los settings.py  pero por buena practica el archivo settings.py puede ser sub-dividido en 3 por esto creando la carpeta settings que en su interior cuenta con __init__.py  base.py local.py prod.py... Siendo en base.py donde se encuentran los django apps, local apps, thid party apps. siendo aqui donde informaremos de cambios en nuestros modulos. Local.py aca realizaremos la conexion con la base de datos en nuestro entorno local, tambien podremos realizar varias tareas mas.
 
-4°
+4°Static-- Contiene los archivos estaticos de siempre.
+
+5°Templates-- Templates necesarios para nuestro proyecto, puede servir para pruebas, ya que, sera un backend en API REST
+
+6°Applications-- esta carpeta se crea para almacenar los modulos de nuestro proyecto y se crea de forma convencional no asi sus sub carpetas que van por line de comando.
+para crear estas carpetas la linea de comando es...  django-admin startapp "nombre" esto nos traera una carpeta con sus archivos .py correspondientes en este caso users tiene extra urls-serializers-mixins-managers-forms(no es necesario para API)
 
 
 
