@@ -46,6 +46,8 @@ Tenemos 4 carpetas principales que se ven en la raíz y un archivo .py y un jsno
 6°Applications-- esta carpeta se crea para almacenar los modulos de nuestro proyecto y se crea de forma convencional no asi sus sub carpetas que van por line de comando.
 para crear estas carpetas la linea de comando es...  django-admin startapp "nombre" esto nos traera una carpeta con sus archivos .py correspondientes en este caso users tiene extra urls-serializers-mixins-managers-forms(no es necesario para API)
 
+--------------
+
 
 
 
